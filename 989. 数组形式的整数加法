@@ -33,6 +33,12 @@
 
 解题思路：
   反转数组，然后直接在数组上运算，实现逐位相加，最终再反转数组。
+知识点：
+  vector.begin()：返回一个指向数组第一个元素的迭代器
+  vecotor.end():返回一个指向数组最后一个元素下一个元素的迭代器
+  reverse(vector.begin(),vector.end()):反转指定范围的顺序
+  可使用vector[i]得方式访问数组的值
+  vector.push_back(element):将新元素element让添加到数组的末尾，也就是在原数组最后一个元素之后新增加一个元素element
 代码实现：
 class Solution {
 public:
